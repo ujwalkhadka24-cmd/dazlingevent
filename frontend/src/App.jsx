@@ -35,7 +35,7 @@ export default function App() {
   return (
     <AuthProvider>
       <EventProvider>
-        <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", background: "#0a0a0f", fontFamily: "'Outfit', sans-serif" }}>
+        <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", background: "#37baf1", fontFamily: "'Outfit', sans-serif" }}>
           <Navbar currentPage={currentPage} navigate={navigate} />
           <main style={{ flex: 1 }}>
             {renderPage()}
