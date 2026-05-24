@@ -42,7 +42,7 @@ export default function HomePage({ navigate }) {
               borderRadius: 30, padding: "6px 16px", marginBottom: 28,
             }}>
               <span style={{ fontSize: 12 }}>✦</span>
-              <span style={{ color: "#FFD700", fontSize: 13, fontWeight: 600, letterSpacing: "0.5px" }}>
+              <span style={{ color: "#FFD700", fontSize: 18, fontWeight: 600, letterSpacing: "0.5px" }}>
                 Australia's Premier Event Platform
               </span>
             </div>
@@ -58,7 +58,7 @@ export default function HomePage({ navigate }) {
               </span>
             </h1>
 
-            <p style={{ color: "rgba(255,255,255,0.55)", fontSize: "clamp(16px, 2vw, 20px)", lineHeight: 1.7, margin: "0 0 40px", maxWidth: 560 }}>
+            <p style={{ color: "hsl(0, 30%, 92%)", fontSize: "clamp(16px, 2vw, 20px)", lineHeight: 1.7, margin: "0 0 40px", maxWidth: 560 }}>
               Discover extraordinary events or create unforgettable experiences. From intimate art shows to massive tech summits — it all starts here.
             </p>
 

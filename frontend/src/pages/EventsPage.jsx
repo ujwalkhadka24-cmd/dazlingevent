@@ -47,7 +47,7 @@ export default function EventsPage({ navigate }) {
 
       {/* Search & sort */}
       <div style={{
-        background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)",
+        background: "rgba(129, 16, 16, 0.03)", border: "1px solid rgba(255,255,255,0.08)",
         borderRadius: 16, padding: "1.5rem", marginBottom: "2rem",
         display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center",
       }}>
@@ -60,8 +60,8 @@ export default function EventsPage({ navigate }) {
             onChange={e => { setSearch(e.target.value); setPage(1); }}
             style={{
               width: "100%", padding: "12px 16px 12px 44px",
-              background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.12)",
-              borderRadius: 10, color: "#fff", fontSize: 15,
+              background: "rgba(34, 25, 164, 0.59)", border: "1px solid rgba(255,255,255,0.12)",
+              borderRadius: 10, color: "#faf1f1", fontSize: 17,
               fontFamily: "'Outfit', sans-serif", outline: "none", boxSizing: "border-box",
             }}
           />
