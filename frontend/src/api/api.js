@@ -1,10 +1,10 @@
 // ─────────────────────────────────────────────────────────────
 //  DazlingEvent — API client
-//  Backend: FastAPI on http://localhost:8000
+// 
 //  Routes:  /auth  /events  /registrations  /admin
 // ─────────────────────────────────────────────────────────────
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://dazlingevent.onrender.com";
 
 const getHeaders = () => {
   const token = localStorage.getItem("dazling_token");
